@@ -9,13 +9,13 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.io.FileNotFoundException;   
 
-public class Statements {
+public class Statement {
     private String dbName;
     private String path;
     private String fileName;
     private String switcher;
 
-    Statements(String dbName, String path, String fileName, String switcher) {
+    Statement(String dbName, String path, String fileName, String switcher) {
         this.dbName = dbName;
         this.path= path;
         this.fileName=fileName;
